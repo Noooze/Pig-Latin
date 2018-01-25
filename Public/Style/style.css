@@ -1,0 +1,33 @@
+html{
+    font-size: 40px;
+}
+
+#all{
+    display: flex;
+    align-items: center;
+    margin-top: 25vh;
+    flex-direction: column;
+}
+.translate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.translate input{
+    height: 30px;
+    line-height: 30px;
+}
+.translate button{
+    height: 36px;
+}
+.translate > *{
+    margin: 10px;
+}
+#translation{
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+ }
+#translation > p{
+    margin: 0;
+}
