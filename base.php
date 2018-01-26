@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/namesapceAutoloader.php";
+require_once __DIR__ . "/namespaceAutoloader.php";
 
 $requestHandler = new RequestHandler();
 $requestHandler->handleRequest();
